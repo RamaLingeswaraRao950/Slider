@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ram ( Menu + Slider )</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Vertical DRAG label -->
+  <div class="drag-vertical">
+    <span>DRAG</span>
+  </div>
+
+  <div class="page-shell">
+    <!-- Top bar -->
+    <header class="top-bar">
+      <div class="top-bar-left">
+        <div class="logo-pill">Rama Lingeswara Rao Sivakavi</div>
+      </div>
+      <nav class="top-bar-right">
+        <a
+          href="https://tricks-menu-slider.webflow.io/"
+          class="top-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="top-link-label">Wizardry</span>
+          <span class="top-link-index">01</span>
+        </a>
+        <a
+          href="https://www.patreon.com"
+          class="top-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="top-link-label">Patreon</span>
+          <span class="top-link-index">02</span>
+        </a>
+        <a
+          href="https://www.youtube.com"
+          class="top-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="top-link-label">YouTube</span>
+          <span class="top-link-index">03</span>
+        </a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <section class="hero-right hero-right-full">
+        <div class="orb-bg"></div>
+
+        <div class="slider-shell">
+          <div class="slider-shell-glow"></div>
+
+          <!-- Badge -->
+          <div class="slider-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Drag horizontally</span>
+          </div>
+
+          <!-- Slider viewport -->
+          <div class="slider-viewport">
+            <div class="slider-track">
+              <!-- BITES -->
+              <article
+                class="slider-card"
+                data-category="bites"
+                data-url="https://www.seriouseats.com"
+              >
+                <div class="card-image-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1543353071-873f17a7a088?auto=format&fit=crop&w=800&q=80"
+                    alt="Truffle fries"
+                  />
+                </div>
+                <div class="card-inner">
+                  <div class="card-tag card-tag-bites">Bites</div>
+                  <h2 class="card-title">Black Truffle Parmesan Fries</h2>
+                  <p class="card-description">
+                    Crispy shoestring potatoes tossed in black truffle oil,
+                    smoked sea salt, and shaved parmesan. Served with a roasted
+                    garlic aioli.
+                  </p>
+                  <div class="card-meta-row">
+                    <span class="card-price">$14</span>
+                    <span class="card-meta-pill">Shareable</span>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="slider-card"
+                data-category="bites"
+                data-url="https://www.bonappetit.com"
+              >
+                <div class="card-image-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1725859617078-4cbed87abb87?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fENyaXNweSUyMFNoaWl0YWtlJTIwQmFvJTIwQnVuc3xlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Bao buns"
+                  />
+                </div>
+                <div class="card-inner">
+                  <div class="card-tag card-tag-bites">Bites</div>
+                  <h2 class="card-title">Crispy Shiitake Bao Buns</h2>
+                  <p class="card-description">
+                    Steamed bao filled with crispy shiitake, pickled cucumber,
+                    chili crunch, and a miso-lime glaze.
+                  </p>
+                  <div class="card-meta-row">
+                    <span class="card-price">$16</span>
+                    <span class="card-meta-pill">Vegan option</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- DRINKS -->
+              <article
+                class="slider-card"
+                data-category="drinks"
+                data-url="https://www.liquor.com"
+              >
+                <div class="card-image-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1546177461-79dfec0b0928?auto=format&fit=crop&w=800&q=80"
+                    alt="Neon cocktail"
+                  />
+                </div>
+                <div class="card-inner">
+                  <div class="card-tag card-tag-drinks">Drinks</div>
+                  <h2 class="card-title">Neon Citrus Highball</h2>
+                  <p class="card-description">
+                    Gin, yuzu, lemongrass syrup, and tonic, finished with a
+                    smoked rosemary sprig and glowing citrus wheel.
+                  </p>
+                  <div class="card-meta-row">
+                    <span class="card-price">$18</span>
+                    <span class="card-meta-pill">House special</span>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="slider-card"
+                data-category="drinks"
+                data-url="https://www.liquor.com/recipes"
+              >
+                <div class="card-image-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=800&q=80"
+                    alt="Zero-proof cocktail"
+                  />
+                </div>
+                <div class="card-inner">
+                  <div class="card-tag card-tag-drinks">Drinks</div>
+                  <h2 class="card-title">Zero-Gravity Cooler</h2>
+                  <p class="card-description">
+                    Non-alcoholic aperitif, cold-brewed jasmine tea, cucumber,
+                    and carbonated lychee for a light, floating finish.
+                  </p>
+                  <div class="card-meta-row">
+                    <span class="card-price">$12</span>
+                    <span class="card-meta-pill">Zero proof</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- DESSERT -->
+              <article
+                class="slider-card"
+                data-category="dessert"
+                data-url="https://www.bbcgoodfood.com"
+              >
+                <div class="card-image-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1641896482215-2d049113cb00?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRhcmslMjBjaG9jb2xhdGV8ZW58MHx8MHx8fDA%3D"
+                    alt="Chocolate dessert"
+                  />
+                </div>
+                <div class="card-inner">
+                  <div class="card-tag card-tag-dessert">Dessert</div>
+                  <h2 class="card-title">Dark Matter Chocolate Sphere</h2>
+                  <p class="card-description">
+                    Warm salted caramel poured over a thin chocolate shell,
+                    revealing hazelnut praline and tonka bean cream.
+                  </p>
+                  <div class="card-meta-row">
+                    <span class="card-price">$17</span>
+                    <span class="card-meta-pill">Tableside pour</span>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="slider-card"
+                data-category="dessert"
+                data-url="https://www.allrecipes.com"
+              >
+                <div class="card-image-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+                    alt="Citrus dessert"
+                  />
+                </div>
+                <div class="card-inner">
+                  <div class="card-tag card-tag-dessert">Dessert</div>
+                  <h2 class="card-title">Citrus Nebula Pavlova</h2>
+                  <p class="card-description">
+                    Crispy meringue with whipped mascarpone, brûléed grapefruit,
+                    and a swirl of passionfruit coulis.
+                  </p>
+                  <div class="card-meta-row">
+                    <span class="card-price">$15</span>
+                    <span class="card-meta-pill">Light finish</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Scrubber -->
+          <div class="slider-scrubber">
+            <div class="scrubber-track">
+              <button
+                class="scrubber-handle"
+                type="button"
+                aria-label="Drag to scrub slider"
+              >
+                <span class="scrubber-ring"></span>
+                <span class="scrubber-inner">DRAG</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
