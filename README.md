@@ -1,6 +1,6 @@
 # 🍽️ Slider – Drag, Glide & Explore ✨
 
-An **interactive, futuristic menu slider**.This UI showcases **beautiful food & drinks cards** with :
+An **interactive, futuristic menu slider**. This UI showcases **beautiful food & drinks cards** with :
 
 - 🎚️ Smooth **horizontal drag-to-scroll**
 - 🌀 A glowing **scrubber handle** that syncs with scrolling
@@ -56,7 +56,5 @@ An **interactive, futuristic menu slider**.This UI showcases **beautiful food & 
 | Fonts         | System UI stack |
 
 ---
-
-📜 Feel free to fork, star ⭐, and customize this layout for your own menus, galleries, product sliders, or showcases !
 
 💡 Great UI isn’t just about pixels, it’s about the way everything moves, reacts, and feels when you touch it.
