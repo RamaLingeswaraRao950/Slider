@@ -1,7 +1,6 @@
 # 🍽️ Slider – Drag, Glide & Explore ✨
 
-An **interactive, futuristic menu slider** built with **HTML, CSS, and JavaScript**.  
-This UI showcases **beautiful food & drinks cards** with:
+An **interactive, futuristic menu slider**.This UI showcases **beautiful food & drinks cards** with :
 
 - 🎚️ Smooth **horizontal drag-to-scroll**
 - 🌀 A glowing **scrubber handle** that syncs with scrolling
